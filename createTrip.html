@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trippie New Trip</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+  <form class="new-trip-form">
+    <h2>Create New Trip</h2>
+    <label for="trip-title"><b>Trip Title</b></label>
+    <textarea type="text" id="new-trip-form" name="trip-title" placeholder="eg. Vegas Trip" required cols="50"></textarea>  
+    <label for="flight-details"><b>Flight Details</b></label>
+    <textarea type="text" id="flight-details" name="flight-details" placeholder="Enter your flight details" rows="5" cols="50"></textarea>
+    <label for="accom-details"><b>Accomodation</b></label>
+    <textarea type="text" id="accom-details" name="accom-details" placeholder="Enter your accomodation details" rows="5" cols="50"></textarea>
+    <label for="itinerary-details"><b>Itinerary</b></label>
+    <textarea type="text" id="itinerary-details" name="itinerary-details" placeholder="Enter your daily itinerary" rows="10" cols="50"></textarea>
+  </form>
+  <button type="submit" class="create-button">Submit</button>
+  <button class="cancel">Cancel</button>
+</body>
+</html>

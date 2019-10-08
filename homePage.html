@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Trippie Travel Planner</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="home-container">
+    <header role="banner" aria-live="polite">
+        <nav role="navigation" class="navbar">
+          <ul class="nav-items">
+            <li><a href="./previousTrips.html"><h2>Past Trips</h2></a></li>
+            <li><a href="./homePage.html"><h2>Upcoming Trips</h2></a></li>
+            <li><a href="./createTrip.html"><h2>Create a Trippie</h2></a></li>
+            <li><a href="./landingPage.html"><button class="logout">Logout</button></a></li>
+          </ul>
+          </nav>
+        <h1>Trippie - Travel Planner</h1>
+        <p class="descript">View previous trips or personalize your upcoming trips!</p>
+    </header>
+
+    <main role="main" class="my-trips">
+      <h2>Upcoming Trips</h2>
+      <div class="upcoming-trips">
+        <ul>
+          <li class="trip">
+            <h3>Halloween Trip to Vegas</h3>
+            <p>Trip Dates: 10/29/2019 - 11/02/2019</p>
+            <a href="">Flight</a>
+            <a href="">Accomodation</a>
+            <a href="">Itinerary</a>
+          </li>
+          <li class="trip">
+            <h3>Los Angeles Family Trip</h3>
+            <p>Trip Dates: 11/11/2019 - 11/15/2019</p>
+            <a href="">Flight</a>
+            <a href="">Accomodation</a>
+            <a href="">Itinerary</a>
+            <section class="expanded-view">
+              <ul>
+                <li class="flight-details">
+                  <h4>Flight Information</h4>
+                    <li>Departure Airline: Delta Air Lines</li>
+                    <li>Departure Date: November 11, 2019</li>
+                      <li>Flight Time: 9:30 a.m. CST</li>
+                      <li>Arrival Time: 11:30 a.m PST</li>
+                    <li>Return Airline: Sun Country</li>
+                      <li>Flight Time: 1:00 p.m. PST</li>
+                      <li>Arrival Time: 7:00 p.m. CST</li>
+                </li>
+              </ul>
+            </section>
+          </li>
+          <li class="trip">
+            <h3>New Year New York</h3>
+            <p>Trip Dates: 12/30/2019 - 01/03/2019</p>
+            <a href="">Flight</a>
+            <a href="">Accomodation</a>
+            <a href="">Itinerary</a>
+            <section class="expanded-view">
+              <ul>
+              <h4>Accomodation Information</h4>
+                <li>Hotel Name: InterContinental Downtown</li>
+                <li>Address: 555 Live Square, Los Angeles, CA 90017</li>
+                <li>Phone: (213) 555-5555</li>
+              </ul>
+            </section>
+          </li>
+          <li class="trip">
+            <h3>Miami Beach</h3>
+            <p>Trip Dates: 3/22/2020 - 3/24/2020</p>
+            <a href="">Flight</a>
+            <a href="">Accomodation</a>
+            <a href="">Itinerary</a>
+            <section class="expanded-view">
+              <ul>
+                <h4>Itinerary</h4>
+                  <h5>Day 1: 3/22</h5>
+                  <ul>
+                    <li>11:00am: Land at Miami Airport</li>
+                    <li>12:00pm: Check-in to Hotel</li>
+                    <li>1:00pm: Lunch reservation at Beach Fish Club</li>
+                    <li>8:00pm: Dinner with Joe Shmoe</li>
+                    <li>10:00pm: Hit the bars</li>
+                  </ul>
+                  <h5>Day 2: 3/23</h5>
+                  <ul>
+                    <li>1:00pm-5:00pm: Beach Party</li>
+                    <li>7:00pm: Dinner on the beach</li>
+                    <li>11:00pm: Hit the bars again</li>
+                  </ul>
+                  <h5>Day3: 3/24</h5>
+                  <ul>
+                    <li>11:00am: Check out of hotel</li>
+                    <li>12:00pm: Brunch it up</li>
+                    <li>4:00pm: Head to airport to go home</li>
+                  </ul>
+              </ul>
+            </section>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

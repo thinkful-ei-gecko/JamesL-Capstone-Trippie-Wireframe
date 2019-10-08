@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a6d3f5;
+  color: #2a2e30;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout {
+  margin-top: 20px;
+}
+
+.navbar a {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #213352;
+}
+
+h1,
+.descript {
+  text-align: center;
+}
+
+/* .my-trips {
+  text-align: center;
+} */
+
+.new-trip-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px;
+  width: 50%;
+  align-content: center;
+}
+
+.create-button,
+.cancel {
+  margin-top: 5px;
+}
+
+.landing-page {
+  display: block;
+  text-align: center;
+  height: 50%;
+}
+
+.box{
+  background:rgb(37, 37, 37);
+  color: #e0e0e0;
+  width:35%;
+  border-radius:6px;
+  margin: 100px auto;
+  padding:30px;
+  border: #a8a8a8 4px solid; 
+  text-align: center; 
+}
+
+.trip {
+  align-content: center;
+  background: #e0e0e0;
+  width: 50%;
+}
+
